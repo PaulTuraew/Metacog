@@ -39,9 +39,9 @@ Metacognition is the ability to make judgments  about our own thoughts. Strength
     * Narrative (optional).
 
 ### Visuals
-Wireframes: 
+[Click for Wireframes](https://github.com/PaulTuraew/Metacog/tree/master/Metacog_Wireframes) 
 
-ERD: 
+[Click for ERD]()
 
 
 ### Technologies Used

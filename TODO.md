@@ -5,6 +5,11 @@ Metacog
 
 1. User creation and sign in authentication (with password).
 
+2. Add gems: rspec, capybara
+
+3. Rails generate primary pages and ensure routes are correct
+
+
 2. User authorization.
 
 3. Capture mood data (rating, reason and narrative) into DB.

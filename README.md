@@ -49,3 +49,5 @@ Metacognition is the ability to make judgments  about our own thoughts. Strength
 * Ruby on Rails 4.1.6
 * PostgreSQL Database
 * Authentication and authorization from scratch using bcrypt Ruby gem
+* Simplecov gem
+* Rspec and Capybara testing

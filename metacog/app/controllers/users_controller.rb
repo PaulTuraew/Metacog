@@ -33,7 +33,8 @@ def users_params
     params.require(:user).permit(
       :first_name,
       :last_name,
-      :password_digest,
+      :email,
+      :password,
       :password_confirmation,
       :phone_num,
       )

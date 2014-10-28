@@ -15,6 +15,7 @@ has_many :moods
   validates :email, presence: true, uniqueness: {case_sensitive: false}, format: {with: /[^@]+@[^@]+/}
 
   #validates password length
+
   validates :password, length: { minimum: 8 }
 
   #secure password features

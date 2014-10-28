@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature "User Registers" do
+feature "User Registration" do
 
   scenario "user can visit the root page and see links to sign in or register." do
     visit root_path

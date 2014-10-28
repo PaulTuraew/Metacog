@@ -24,6 +24,10 @@ Metacog
 
 8. Add compare functionality: generate user snapshot and target snapshot.
 
+9. Connect to Glassdoor or LinkedIn API to capture company search/look-up.
+
+10. Incorporate Twilio sms text feature.
+
 
 
 

@@ -1,8 +1,30 @@
-<%= simple_form_for @user do |f| %>
+<!--<%= simple_form_for @user do |f| %>
   <%= f.input :first_name %>
   <%= f.input :last_name %>
   <%= f.input :email %>
   <%= f.input :password_digest %>
   <%= f.input :phone_num %>
   <%= f.button :submit %>
-<% end %>
+<% end %> -->
+
+<%= form_for @user do |f| %>
+  <%= f.label :first_name %>
+  <%= f.text_field :first_name %></br>
+
+  <br><%= f.label :last_name %>
+  <%= f.text_field :last_name %></br>
+
+  <br><%= f.label :email %>
+  <%= f.text_field :email %><br>
+
+  <br><%= f.label :phone_number %>
+  <%= f.text_field :phone_num %><br>
+
+  <br><%= f.label :password %>
+  <%= f.password_field :password_digest %><br>
+
+  <br><%= f.label :password_confirmation, 'Confirm Password' %>
+  <%= f.password_field :password_confirmation %><br>
+
+  <br><%= f.submit 'Submit', id: 'submit' %>
+  <% end %>

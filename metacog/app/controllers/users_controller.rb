@@ -18,6 +18,13 @@ def create
   end
 
   def show
+    @user = User.find(params[:id])
+  end
+
+  def edit
+  end
+
+  def destroy
   end
 
 private
@@ -26,7 +33,7 @@ def users_params
     params.require(:user).permit(
       :first_name,
       :last_name,
-      :password,
+      :password_digest,
       :password_confirmation,
       :phone_num,
       )

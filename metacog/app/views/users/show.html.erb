@@ -25,7 +25,8 @@
         <td><%= mood.rating %></td>
         <td><%= mood.reason %></td>
         <td><%= mood.narrative %></td>
-        <td><%= mood.date %></dt>
+        <td><%= mood.date %></td>
+        <td><%= link_to 'Edit', edit_mood_path(mood), :id => "other_stuff" %></td>
 
       </tr>
     <% end %>

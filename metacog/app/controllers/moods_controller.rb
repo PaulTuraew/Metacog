@@ -18,6 +18,7 @@ before_action :set_mood, only: [:show, :edit, :update, :destroy] #before any act
   end
 
   def edit
+    @mood =Mood.find(params[:id])
   end
 
   def create

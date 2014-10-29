@@ -1,3 +1,6 @@
-<h1><%= @mood.rating %></h1>
-<p><%= @mood.reason %></p>
-<p><%= @mood.narrative %></p>
+<div class="showmoodpage">
+<h2>Your mood for <%= @mood.date %></h2>
+<p>Mood rating: <%= @mood.rating %> </p>
+<p>Primary reason: <%= @mood.reason %></p>
+<p>Narrative: <%= @mood.narrative %></p>
+</div>

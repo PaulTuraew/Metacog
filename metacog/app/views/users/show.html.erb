@@ -2,12 +2,33 @@
 <h1> Welcome, <%= @user.first_name %>! </h1>
 <h2> Get ready to get smarter! </h2>
 
-
-<% @user.moods do |mood|%>
-<%= mood.rating %>
-<% end %>
-
 <p>Visit the Mood Log to record a mood.</p>
 
-<%= link_to "Mood Log", new_mood_path %>
-</div>
+<br><%= link_to "Mood Log", new_mood_path %>
+
+<br><table>
+  <thead>
+
+    <br><tr>
+      <th>Rating</th>
+      <th>Reason</th>
+      <th>Narrative</th>
+      <th>Logged Date</th>
+      <th colspan="4"></th>
+    </tr>
+
+  </thead>
+
+<tbody>
+    <% @user.moods.each do |mood| %>
+      <tr>
+        <td><%= mood.rating %></td>
+        <td><%= mood.reason %></td>
+        <td><%= mood.narrative %></td>
+        <td><%= mood.date %></dt>
+
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>

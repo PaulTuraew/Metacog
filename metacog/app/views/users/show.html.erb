@@ -4,7 +4,7 @@
 
 <p>Visit the Mood Log to record a mood.</p>
 
-<br><%= link_to "Mood Log", new_mood_path %>
+<%= link_to "Mood Log", new_mood_path %>
 
 <br><table>
   <thead>
@@ -31,5 +31,6 @@
       </tr>
     <% end %>
   </tbody>
-
 </table>
+
+<%= render "line_chart" %>

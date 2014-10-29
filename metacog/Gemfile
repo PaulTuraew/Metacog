@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails_12factor'
 
+gem "chartkick"
+gem 'groupdate'
+
 gem "simple_form"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'

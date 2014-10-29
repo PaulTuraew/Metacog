@@ -1,9 +1,13 @@
-<h1> Registration Sucessful. </h1>
+<div class="usersshow">
+<h1> Welcome, <%= @user.first_name %>! </h1>
+<h2> Get ready to get smarter! </h2>
 
-<p>Welcome, <%= @user.first_name %>!</p>
 
 <% @user.moods do |mood|%>
 <%= mood.rating %>
 <% end %>
 
+<p>Visit the Mood Log to record a mood.</p>
+
 <%= link_to "Mood Log", new_mood_path %>
+</div>

@@ -1,0 +1,2 @@
+module MoodLogHelper
+end

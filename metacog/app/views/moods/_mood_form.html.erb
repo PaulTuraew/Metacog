@@ -1,0 +1,21 @@
+<%= form_for @mood do |f| %>
+<div class="field">
+    <%= f.label :overall_rating %><br>
+    <%= f.text_field :rating, :placeholder => "Enter 1(bad)-5(best)" %>
+  </div>
+  <div class="field">
+    <%= f.label :primary_reason %><br>
+    <%= f.text_field :reason %>
+  </div>
+  <div class="field">
+    <%= f.label :narrative %><br>
+    <%= f.text_area :narrative %>
+  </div>
+  <div class="field">
+    <%= f.label :recorded_at %><br>
+    <%= f.datetime_select :date %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

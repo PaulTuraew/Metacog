@@ -1,10 +1,24 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
 .welcomebody {
-  width: 700px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   margin: 0 auto;
-  color: black;
+  padding: 20px 20px 20px 20px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  width: 750px;
 }
+
+.welcomelinks {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.welcomesteps {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  width: 750px;
+}
+

@@ -18,11 +18,11 @@ Metacog
 
 5. Ability for user to see and search own mood data history.
 
-6. Add graph/charts to user history?
+6. ~~Add graph/charts to user history?~~
 
 7. CSS styling
 
-8. Add compare functionality: generate user snapshot and target snapshot.
+8. Add compare to other company/industries functionality: generate user snapshot and target snapshot.
 
 9. Connect to Glassdoor or LinkedIn API to capture company search/look-up.
 

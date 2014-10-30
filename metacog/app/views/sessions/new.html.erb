@@ -1,17 +1,19 @@
-<div class="signinpage">
-<h1>Sign In to your Metacog Account</h1>
+<div class="signin_page">
+  <div id="signin_form">
+    <h1>Sign In to your Metacog Account</h1>
 
-<%= render 'common/flash' %>
+    <%= render 'common/flash' %>
 
- <%= form_for :session, url: sessions_path do |f| %>
-  <%= f.label :email %>
-  <%= f.text_field :email %><br>
+    <%= form_for :session, url: sessions_path do |f| %>
+    <%= f.label :email %>
+    <%= f.text_field :email %><br>
 
-  <br><%= f.label :password %>
-  <%= f.password_field :password %><br>
+    <br><%= f.label :password %>
+    <%= f.password_field :password %><br>
 
-  <br><%= f.submit 'Sign in', id: 'signin' %>
- <% end %>
+    <br><%= f.submit 'Sign in', id: 'signin' %>
+    <% end %>
 
-<br><%= link_to "Back to Welcome", root_path %>
+    <br><%= link_to "Back to Welcome", root_path %>
+  </div>
 </div>

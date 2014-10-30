@@ -13,7 +13,7 @@ Metacognition is the ability to make judgments  about our own thoughts. Strength
 ### User Stories / Expectations
 *Top Level*
 
-* A user should be able to retrieve mood data from a given time period.
+* A user should be able to retrieve mood data from a given time period, see his/her data in a usefull format.
 * A user should be able to compare mood data with other users based on company name and/or industry.
 * A user can opt-in to receive a text message reminder asking them to enter in mood rating for the day.
 
@@ -35,7 +35,7 @@ Metacognition is the ability to make judgments  about our own thoughts. Strength
 * Once signed in, a user should be able to go to a *capture mood* page.
 * The *capture mood* page will allow the user to enter 3 data points:
     * Scale of 1-5 rating of mood;
-    * Drop down, pre-populated primary reason for mood (e.g.: co-worker, boss, project sucess, project failure, etc.)(optional); and
+    * A string primary reason for mood (e.g.: co-worker, boss, project sucess, project failure, etc.)(optional); and
     * Narrative (optional).
 
 ### Visuals
@@ -49,5 +49,9 @@ Metacognition is the ability to make judgments  about our own thoughts. Strength
 * Ruby on Rails 4.1.6
 * PostgreSQL Database
 * Authentication and authorization from scratch using bcrypt Ruby gem
-* Simplecov gem
-* Rspec and Capybara testing
+* Additional gems used:
+    * Simplecov;
+    * 12_factor;
+    * Chartkick;
+    * Groupdate;
+    * Rspec and Capybara testing

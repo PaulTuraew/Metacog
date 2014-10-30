@@ -1,24 +1,21 @@
-
-.welcomebody {
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  margin: 0 auto;
-  padding: 20px 20px 20px 20px;
-  text-align: center;
-  width: 750px;
+.wholewelcome {
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  margin-top: -10px;
+  background:url("http://spacecollective.org/userdata/96jvsLET/1199892174/magneticSphere_02.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
-.welcomelinks {
+#welcomebody, #welcomelinks, #welcomesteps {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-}
-
-.welcomesteps {
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  margin: 0 auto;
-  padding: 20px 20px 20px 20px;
-  text-align: center;
   width: 750px;
+  height: 100%;
+  background-color: white;
+  opacity: .85;
 }
 

@@ -1,13 +1,8 @@
 class MoodsController < ApplicationController
-before_action :set_mood, only: [:show, :edit, :update, :destroy] #before any action, call :set_post
+  before_action :set_mood, only: [:show, :edit, :update, :destroy] #before any action, call :set_post
 
   def index #where display to user
     @moods = Mood.all
-    # @moods = if params[:search]
-    #   Mood.search(params[:search]).sorted.published
-    # else
-    #   Mood.sorted.latest.published
-    # end
   end
 
   def show
@@ -57,14 +52,13 @@ before_action :set_mood, only: [:show, :edit, :update, :destroy] #before any act
   end
 
   private #helper method and not an action
-    # Use callbacks to share common setup or constraints between actions.
-    def set_mood
-      @mood = Mood.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_mood
+    @mood = Mood.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def mood_params
-      params.require(:mood).permit(:rating, :reason, :narrative, :date)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def mood_params
+    params.require(:mood).permit(:rating, :reason, :narrative, :date)
+  end
 end
-

@@ -1,9 +1,9 @@
 class User < ActiveRecord::Base
-belongs_to :industry
-belongs_to :company
-has_many :moods
+  belongs_to :industry
+  belongs_to :company
+  has_many :moods
 
-#add save handlers for formatting data
+  #add save handlers for formatting data
   before_create :create_remember_token
   before_save :normalize_fields
 
